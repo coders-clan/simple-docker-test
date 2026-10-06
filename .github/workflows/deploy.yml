@@ -2,7 +2,7 @@ name: deploy-coolify-git
 
 on:
   push:
-    branches: [coolify-compose]
+    branches: main
   workflow_dispatch:
     inputs:
       commit:
